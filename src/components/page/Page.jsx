@@ -2,8 +2,7 @@ import React from 'react';
 import './Page.css';
 
 const Page = () => (
-  <div className="A4">
-    page
+  <div className="A4" data-testid="page">
   </div>
 );
 
