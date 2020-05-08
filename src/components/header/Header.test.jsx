@@ -4,7 +4,7 @@ import Header from './Header';
 import ResumeContext, { initialState } from '../../context';
 
 
-test('renders Page component', () => {
+test('renders Header component', () => {
   const mockState = {
     ...initialState,
     personalInfo: {
