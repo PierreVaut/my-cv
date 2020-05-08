@@ -7,8 +7,8 @@ const Footer = () => {
   const { footerLink, footerText } = footerData;
 
   return (
-    <div className="footer">
-      <div className="footerText">{footerText}</div>
+    <div className="footer" data-testid="footer">
+      <div className="footerText" data-testid="footer-text">{footerText}</div>
       <a href={footerLink}>{footerLink}</a>
     </div>
   );
