@@ -6,7 +6,7 @@
   border: 1px solid red;
   width: 60%;
   padding: 10px;
-  height: 20%;
+  height: max-content;
 
 }
 

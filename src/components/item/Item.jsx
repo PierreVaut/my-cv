@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Item.css';
 
 const Item = ({ itemData }) => {
   const {
@@ -11,7 +12,7 @@ const Item = ({ itemData }) => {
       data-testid={`item-${title}`}
     >
       <div className="timePeriod">{timePeriod}</div>
-      <div className="title">{title}</div>
+      <div className="item-title">{title}</div>
       <div className="place">{place}</div>
     </div>
   );

@@ -5,11 +5,11 @@ import Item from '../item';
 
 
 const ItemBlock = ({ itemBlockType, itemBlockData }) => (
-  <div className={itemBlockType} data-testid={`item-block-${itemBlockType}`}>
+  <div className={`${itemBlockType} itemBlock`} data-testid={`item-block-${itemBlockType}`}>
     <div className="title capitalize" data-testid="title">
       {itemBlockType}
     </div>
-    {itemBlockData.map((itemData) => <Item itemData={itemData} key={itemData.title} />)}
+    {itemBlockData.map((itemData) => <Item itemData={itemData} key={itemData.order} />)}
   </div>
 );
 ItemBlock.propTypes = {
