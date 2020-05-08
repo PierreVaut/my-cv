@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -12,7 +12,7 @@ import ResumeContext, { initialState } from './context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter>
       <Switch>
 
 
@@ -26,7 +26,7 @@ ReactDOM.render(
           Nothing here yet...
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );
