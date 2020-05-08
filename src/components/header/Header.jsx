@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import ResumeContext from '../../context';
+import ResumeContext, { constants } from '../../context';
 import './Header.css';
 
 const Header = () => {
-  const { personalInfo } = useContext(ResumeContext);
+  const { [constants.PERSONAL_INFO]: personalInfo } = useContext(ResumeContext);
   const {
     firstName, lastName, email, github, linkedin,
   } = personalInfo;
