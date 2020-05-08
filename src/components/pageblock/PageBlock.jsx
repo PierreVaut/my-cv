@@ -15,7 +15,7 @@ const PageBlock = ({ className, pageBlockType }) => {
           (pageBlockElementKey) => (
             <ItemBlock
               itemBlockType={pageBlockElementKey}
-              ItemBlockData={pageBlockData[pageBlockElementKey]}
+              itemBlockData={pageBlockData[pageBlockElementKey]}
               key={pageBlockElementKey}
             />
           ),

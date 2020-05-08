@@ -4,17 +4,17 @@ import PropTypes from 'prop-types';
 import Item from '../item';
 
 
-const ItemBlock = ({ itemBlockType, ItemBlockData }) => (
+const ItemBlock = ({ itemBlockType, itemBlockData }) => (
   <div className={itemBlockType} data-testid={`item-block-${itemBlockType}`}>
     <div className="title capitalize" data-testid="title">
       {itemBlockType}
     </div>
-    {JSON.stringify(ItemBlockData)}
+    {itemBlockData.map((itemData) => <Item itemData={itemData} key={itemData.title} />)}
   </div>
 );
 ItemBlock.propTypes = {
   itemBlockType: PropTypes.string.isRequired,
-  ItemBlockData: PropTypes.arrayOf(
+  itemBlockData: PropTypes.arrayOf(
     PropTypes.shape({
       order: PropTypes.number.isRequired,
       timePeriod: PropTypes.string.isRequired,
