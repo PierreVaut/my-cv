@@ -1,15 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ResumeContext, { initialState } from './context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ResumeContext.Provider value={initialState}>
-      <App />
-    </ResumeContext.Provider>
+    <Router>
+      <Switch>
+
+
+        <Route path="/pierre-vautherin-cv-2020">
+          <ResumeContext.Provider value={initialState}>
+            <App />
+          </ResumeContext.Provider>
+        </Route>
+
+        <Route path="/">
+          Nothing here yet...
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );
