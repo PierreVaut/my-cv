@@ -22,4 +22,41 @@ export default {
       show: true,
     },
   ],
+  experience: [
+    {
+      order: 0,
+      timePeriod: '2008-2011',
+      title: 'Project manager',
+      place: 'Cairn.info',
+      show: true,
+    },
+    {
+      order: 1,
+      timePeriod: '2012-2017',
+      title: 'Project manager',
+      place: 'Elsevier',
+      show: true,
+    },
+    {
+      order: 2,
+      timePeriod: 'Feb 2018-July 2018',
+      title: 'Fullstack developer Javascript',
+      place: 'Groupeer Technologies',
+      show: true,
+    },
+    {
+      order: 3,
+      timePeriod: 'July 2018-October 2018',
+      title: 'Backend developer Python',
+      place: 'SFR',
+      show: true,
+    },
+    {
+      order: 4,
+      timePeriod: 'November 2018-present',
+      title: 'Software Engineer',
+      place: 'Photobox',
+      show: true,
+    },
+  ],
 };
