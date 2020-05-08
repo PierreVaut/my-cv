@@ -1,7 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Item = ({ itemData }) => <div>{JSON.stringify(itemData)}</div>;
+const Item = ({ itemData }) => {
+  const {
+    title, place, timePeriod, show,
+  } = itemData;
+  return show && (
+    <div
+      className="item"
+      data-testid={`item-${title}`}
+    >
+      <div className="timePeriod">{timePeriod}</div>
+      <div className="title">{title}</div>
+      <div className="place">{place}</div>
+    </div>
+  );
+};
 
 Item.propTypes = {
   itemData:
