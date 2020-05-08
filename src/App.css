@@ -1,3 +1,16 @@
 body {
   background: rgb(204,204,204);
 }
+
+.A4 {
+  background: white;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  width: 21cm;
+  height: 29.7cm;
+  border: 1px solid blue;
+  flex-wrap: wrap;
+	justify-content: center;
+}

@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Page } from './components';
+import { Header, PageBlock } from './components';
+
 
 function App() {
   return (
-    <Page />
+    <div className="A4" data-testid="page">
+      <Header />
+      <PageBlock className="left" />
+      <PageBlock className="right" />
+    </div>
   );
 }
 
