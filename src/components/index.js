@@ -1,4 +1,5 @@
-import Page from './page';
+import PageBlock from './pageblock';
 import Item from './item';
+import Header from './header';
 
-export { Page, Item };
+export { PageBlock, Item, Header };

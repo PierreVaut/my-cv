@@ -1,0 +1,19 @@
+
+.page-block {
+}
+
+.left{
+  border: 1px solid red;
+  width: 60%;
+  padding: 10px;
+  height: 20%;
+
+}
+
+.right{
+  border: 1px solid green;
+  width: 30%;
+  background-color: gray;
+  padding: 10px;
+  height: 80%;
+}
