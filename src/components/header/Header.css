@@ -1,0 +1,21 @@
+.header{
+  border: 1px solid blue;
+  width: 100%;
+  height: 10%;
+}
+
+.header-text{
+  margin: 0;
+}
+
+p{
+  margin: inherit;
+}
+
+h1{
+  margin: inherit;
+}
+
+a {
+ margin-left: 4px;;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import resume from './resume';
+import personalInfo from './personalInfo';
 
-export default React.createContext(resume);
-export { resume as initialState };
+export const initialState = { resume, personalInfo };
+
+export default React.createContext(initialState);
