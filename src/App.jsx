@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="A4" data-testid="page">
       <Header />
-      <PageBlock className="left" pageBlockType={constants.RESUME} />
-      <PageBlock className="right" pageBlockType="none for the moment" />
+      <main>
+        <PageBlock className="left" pageBlockType={constants.RESUME} />
+        <PageBlock className="right" pageBlockType="none for the moment" />
+      </main>
       <Footer />
     </div>
   );

@@ -1,19 +1,16 @@
 
 .page-block {
+  align-self: flex-start;
 }
 
 .left{
-  border: 1px solid red;
-  width: 60%;
-  padding: 10px;
+  width: 70%;
   height: max-content;
 
 }
 
 .right{
-  border: 1px solid green;
   width: 30%;
-  background-color: gray;
-  padding: 10px;
-  height: 80%;
+  background-color: rgb(189, 187, 187);
+  height: 900px;
 }

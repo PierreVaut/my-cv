@@ -10,9 +10,14 @@ body {
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   width: 21cm;
   height: 29.7cm;
-  border: 1px solid blue;
-  flex-wrap: wrap;
-	justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  height: 75%;
 }
 
 .capitalize {
