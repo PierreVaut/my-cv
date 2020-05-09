@@ -11,7 +11,7 @@ export default {
       show: true,
     },
     {
-      order: 1,
+      order: 2,
       title: 'HTML CSS',
       show: true,
     },
@@ -33,7 +33,7 @@ export default {
       show: true,
     },
     {
-      order: 2,
+      order: 3,
       title: 'Immutability helper',
       show: true,
     },
@@ -55,7 +55,7 @@ export default {
       show: true,
     },
     {
-      order: 2,
+      order: 3,
       title: 'Mongo, DynamoDB',
       show: true,
     },
@@ -92,7 +92,7 @@ export default {
       show: true,
     },
     {
-      order: 1,
+      order: 2,
       title: 'Github, Gitlab',
       show: true,
     },
