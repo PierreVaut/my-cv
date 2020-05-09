@@ -13,7 +13,7 @@ function App() {
       <Header resource={HEADER} />
       <main>
         <PageBlock className="left" resource={RESUME} />
-        <PageBlock className="right" resource="none for the moment" />
+        <PageBlock className="right" resource={SKILLS} />
       </main>
       <Footer resource={FOOTER} />
     </div>

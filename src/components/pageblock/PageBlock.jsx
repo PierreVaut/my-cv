@@ -8,6 +8,7 @@ import ItemBlock from '../itemBlock/ItemBlock';
 
 const PageBlock = ({ className, resource }) => {
   const { [resource]: pageBlockData = {} } = useContext(ResumeContext);
+  console.log(pageBlockData);
   return (
     <div className={className} data-testid={`page-block-${resource}`}>
       {
