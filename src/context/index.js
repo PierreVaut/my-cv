@@ -1,15 +1,14 @@
 import React from 'react';
 import constants from './constants';
-import resume from './resume';
 import footer from './footer';
 import skills from './skills';
 
-import { headerData } from './resources';
+import { headerData, resumeData } from './resources';
 
 export const initialState = {
   [constants.HEADER]: headerData,
   [constants.SKILLS]: skills,
-  [constants.RESUME]: resume,
+  [constants.RESUME]: resumeData,
   [constants.FOOTER]: footer,
 };
 

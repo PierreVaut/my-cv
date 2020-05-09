@@ -5,7 +5,7 @@ import ResumeContext, { initialState } from '../../context';
 
 const props = {
   className: '',
-  pageBlockType: 'some-pageBlock-level-resource',
+  resource: 'some-pageBlock-level-resource',
 };
 
 test('renders PageBlock component', () => {

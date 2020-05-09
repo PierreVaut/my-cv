@@ -6,10 +6,10 @@ import ResumeContext from '../../context';
 import ItemBlock from '../itemBlock/ItemBlock';
 
 
-const PageBlock = ({ className, pageBlockType }) => {
-  const { [pageBlockType]: pageBlockData = {} } = useContext(ResumeContext);
+const PageBlock = ({ className, resource }) => {
+  const { [resource]: pageBlockData = {} } = useContext(ResumeContext);
   return (
-    <div className={className} data-testid={`page-block-${pageBlockType}`}>
+    <div className={className} data-testid={`page-block-${resource}`}>
       {
         Object.keys(pageBlockData).map(
           (pageBlockElementKey) => (
@@ -27,7 +27,7 @@ const PageBlock = ({ className, pageBlockType }) => {
 };
 
 PageBlock.propTypes = {
-  pageBlockType: PropTypes.string.isRequired,
+  resource: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
 };
 
