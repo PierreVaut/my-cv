@@ -1,15 +1,17 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useContext } from 'react';
-import ResumeContext, { constants } from '../../context';
+import PropTypes from 'prop-types';
+import ResumeContext from '../../context';
 import './Header.css';
 
-const Header = () => {
-  const { [constants.PERSONAL_INFO]: personalInfo } = useContext(ResumeContext);
+
+const Header = ({ resource }) => {
+  const { [resource]: headerData } = useContext(ResumeContext);
   const {
     firstName, lastName, email, github, linkedin, image, summary,
-  } = personalInfo;
+  } = headerData;
 
-  return (
+  return headerData && (
     <div className="header" data-testid="header">
       <div className="header-text" data-testid="header-text">
         <h1>
@@ -42,3 +44,7 @@ const Header = () => {
 };
 
 export default Header;
+
+Header.propTypes = {
+  resource: PropTypes.string.isRequired,
+};

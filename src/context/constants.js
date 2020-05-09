@@ -1,6 +1,7 @@
 // pageBlock level resources
 export default {
+  HEADER: 'header',
   RESUME: 'resume',
-  PERSONAL_INFO: 'personalInfo',
+  SKILLS: 'skills',
   FOOTER: 'footer',
 };

@@ -1,4 +1,4 @@
-import resumePicture from '../assets/resume.JPG';
+import resumePicture from '../../assets/resume.JPG';
 
 export default {
   firstName: 'Pierre',
