@@ -17,7 +17,7 @@ body {
 main{
   display: flex;
   flex-direction: row;
-  height: 75%;
+  height: 860px;
 }
 
 .capitalize {

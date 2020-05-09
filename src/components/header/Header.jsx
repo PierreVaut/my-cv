@@ -6,7 +6,7 @@ import './Header.css';
 const Header = () => {
   const { [constants.PERSONAL_INFO]: personalInfo } = useContext(ResumeContext);
   const {
-    firstName, lastName, email, github, linkedin, image,
+    firstName, lastName, email, github, linkedin, image, summary,
   } = personalInfo;
 
   return (
@@ -29,10 +29,11 @@ const Header = () => {
           :
           <a href={linkedin.link}>{linkedin.text}</a>
         </div>
+        {summary && <div className="header-summary" data-testid="header-summary">{summary}</div>}
 
 
       </div>
-      <div className="header-img" data-testId="header-img">
+      <div className="header-img" data-testid="header-img">
         <img src={image.src} alt={image.alt} />
 
       </div>

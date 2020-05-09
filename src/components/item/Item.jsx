@@ -11,9 +11,9 @@ const Item = ({ itemData }) => {
       className="item"
       data-testid={`item-${title}`}
     >
-      <div className="timePeriod">{timePeriod}</div>
+      {timePeriod && <div className="timePeriod">{timePeriod}</div>}
       <div className="item-title">{title}</div>
-      <div className="place">{place}</div>
+      {place && <div className="place">{place}</div>}
     </div>
   );
 };
@@ -22,9 +22,9 @@ Item.propTypes = {
   itemData:
     PropTypes.shape({
       order: PropTypes.number.isRequired,
-      timePeriod: PropTypes.string.isRequired,
+      timePeriod: PropTypes.string,
       title: PropTypes.string.isRequired,
-      place: PropTypes.string.isRequired,
+      place: PropTypes.string,
       show: PropTypes.bool.isRequired,
     }).isRequired,
 };

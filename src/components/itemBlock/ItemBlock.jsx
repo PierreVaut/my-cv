@@ -17,9 +17,9 @@ ItemBlock.propTypes = {
   itemBlockData: PropTypes.arrayOf(
     PropTypes.shape({
       order: PropTypes.number.isRequired,
-      timePeriod: PropTypes.string.isRequired,
+      timePeriod: PropTypes.string,
       title: PropTypes.string.isRequired,
-      place: PropTypes.string.isRequired,
+      place: PropTypes.string,
       show: PropTypes.bool.isRequired,
     }),
   ).isRequired,
