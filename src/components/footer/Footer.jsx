@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import ResumeContext, { constants } from '../../context';
+import PropTypes from 'prop-types';
+import ResumeContext from '../../context';
 import './Footer.css';
 
-const Footer = () => {
-  const { [constants.FOOTER]: footerData } = useContext(ResumeContext);
+const Footer = ({ resource }) => {
+  const { [resource]: footerData } = useContext(ResumeContext);
   const { footerLink, footerText } = footerData;
 
   return (
@@ -12,6 +13,10 @@ const Footer = () => {
       <a href={footerLink}>{footerLink}</a>
     </div>
   );
+};
+
+Footer.propTypes = {
+  resource: PropTypes.string.isRequired,
 };
 
 export default Footer;

@@ -15,7 +15,7 @@ function App() {
         <PageBlock className="left" resource={RESUME} />
         <PageBlock className="right" resource="none for the moment" />
       </main>
-      <Footer />
+      <Footer resource={FOOTER} />
     </div>
   );
 }

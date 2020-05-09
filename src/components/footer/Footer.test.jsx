@@ -13,7 +13,7 @@ test('renders Footer component', () => {
   };
   const { getByTestId, getByText } = render(
     <ResumeContext.Provider value={mockState}>
-      <Footer />
+      <Footer resource="footer" />
     </ResumeContext.Provider>,
   );
   expect(getByTestId('footer')).toBeInTheDocument();
