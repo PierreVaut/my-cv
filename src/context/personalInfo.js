@@ -19,4 +19,5 @@ export default {
     show: true,
     alt: 'pv',
   },
+  summary: 'Lorem ipsum............................. ',
 };

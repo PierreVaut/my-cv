@@ -1,3 +1,4 @@
+// itemBlock level resources
 export default {
   education: [
     {
@@ -56,6 +57,23 @@ export default {
       timePeriod: 'November 2018-present',
       title: 'Software Engineer',
       place: 'Photobox',
+      show: true,
+    },
+  ],
+  miscellaneous: [
+    {
+      order: 0,
+      title: 'Native speaker French, fluent in English.',
+      show: true,
+    },
+    {
+      order: 1,
+      title: 'Passionate traveller. Fond of running, trail and mountain bike.',
+      show: true,
+    },
+    {
+      order: 2,
+      title: 'I really love cinema, especially Kubrick, Visconti and Tarkovsky.',
       show: true,
     },
   ],
