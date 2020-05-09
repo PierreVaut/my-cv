@@ -1,11 +1,13 @@
 
 .page-block {
   align-self: flex-start;
+  padding: 20px;
+  margin: 20px 0 0 20px;
+
 }
 
 .left{
   width: 70%;
-  margin: 0 0 0 20px;
   display: flex;
   flex-direction: column;
 }
@@ -13,6 +15,4 @@
 .right{
   width: 30%;
   background-color: rgb(189, 187, 187);
-  margin: 20px 0 0 20px;
-
 }

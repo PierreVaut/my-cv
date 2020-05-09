@@ -4,13 +4,14 @@
   height: max-content;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-text {
   margin: 0 0 0 20px;
   border: 1px solid purple;
-
+  width: 70%;
 }
 
 .header-img {
@@ -21,8 +22,17 @@
   justify-content: center;
 }
 
+.header-summary {
+  text-align: justify;
+  padding-right: 10px;
+  margin-top: 10px;;
+}
+
 img {
   width: 70%;
+  height: 86%;
+  border-radius: 100%;
+  margin-top: 10px;
 }
 
 h1{

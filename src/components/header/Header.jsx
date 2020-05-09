@@ -15,20 +15,18 @@ const Header = ({ resource }) => {
     <div className="header" data-testid="header">
       <div className="header-text" data-testid="header-text">
         <h1>
-          {firstName}
-          {lastName}
+          {`${firstName} ${lastName}`}
         </h1>
-        Email:
+        {'Email: '}
         <a href={email}>{email}</a>
+
         <div>
-          {github.description}
-          :
+          {`${github.description}: `}
           <a href={github.link}>{github.text}</a>
         </div>
 
         <div>
-          {linkedin.description}
-          :
+          {`${linkedin.description}: `}
           <a href={linkedin.link}>{linkedin.text}</a>
         </div>
         {summary && <div className="header-summary" data-testid="header-summary">{summary}</div>}
