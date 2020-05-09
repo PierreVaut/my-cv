@@ -1,3 +1,5 @@
+import resumePicture from '../assets/resume.JPG';
+
 export default {
   firstName: 'Pierre',
   lastName: 'Vautherin',
@@ -11,5 +13,10 @@ export default {
     text: 'linkedin.com/in/pierrevautherin',
     link: 'https://www.linkedin.com/in/pierrevautherin/',
     description: 'Linkedin',
+  },
+  image: {
+    src: resumePicture,
+    show: true,
+    alt: 'pv',
   },
 };
