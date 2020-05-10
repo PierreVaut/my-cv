@@ -5,9 +5,15 @@
   justify-content: center;
   display: flex;
   align-items: center;
-  font-size: small;
-  background-color: thistle;
+  background-color: #e3c9e3;
 }
 
 .footerText {
+  font-size: 14px;
+}
+
+.footerLinkText {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+  margin-left: 4px;
 }

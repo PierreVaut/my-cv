@@ -9,6 +9,7 @@ test('renders Footer component', () => {
     footer: {
       footerText: 'some footer text',
       footerLink: 'http://www.footer-link.com',
+      footerLinkText: 'www.footer-link.text',
     },
   };
   const { getByTestId, getByText } = render(
@@ -19,5 +20,5 @@ test('renders Footer component', () => {
   expect(getByTestId('footer')).toBeInTheDocument();
   expect(getByTestId('footer-text')).toBeInTheDocument();
   expect(getByText('some footer text')).toBeInTheDocument();
-  expect(getByText('http://www.footer-link.com')).toBeInTheDocument();
+  expect(getByText('www.footer-link.text')).toBeInTheDocument();
 });

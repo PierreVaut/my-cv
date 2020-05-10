@@ -5,12 +5,12 @@ import './Footer.css';
 
 const Footer = ({ resource }) => {
   const { [resource]: footerData } = useContext(ResumeContext);
-  const { footerLink, footerText } = footerData;
+  const { footerLink, footerText, footerLinkText } = footerData;
 
   return (
     <div className="footer" data-testid="footer">
       <div className="footerText" data-testid="footer-text">{footerText}</div>
-      <a href={footerLink}>{footerLink}</a>
+      <a href={footerLink} className="footerLinkText">{footerLinkText}</a>
     </div>
   );
 };
