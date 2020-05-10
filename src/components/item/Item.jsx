@@ -26,6 +26,7 @@ Item.propTypes = {
       title: PropTypes.string.isRequired,
       place: PropTypes.string,
       show: PropTypes.bool.isRequired,
+      description: PropTypes.string,
     }).isRequired,
 };
 

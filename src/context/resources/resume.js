@@ -13,6 +13,7 @@ export default {
         title: 'Project manager',
         place: 'Cairn.info',
         show: true,
+        description: '',
       },
       {
         order: 1,
@@ -20,6 +21,7 @@ export default {
         title: 'Project manager',
         place: 'Elsevier',
         show: true,
+        description: 'Drank coffee, learned react',
       },
       {
         order: 2,
@@ -27,6 +29,7 @@ export default {
         title: 'Fullstack developer Javascript',
         place: 'Groupeer Technologies',
         show: true,
+        description: 'Did some stuff lalala',
       },
       {
         order: 3,
@@ -34,6 +37,7 @@ export default {
         title: 'Backend developer Python',
         place: 'SFR',
         show: true,
+        description: 'Fixed bugs',
       },
       {
         order: 4,
@@ -41,6 +45,7 @@ export default {
         title: 'Software Engineer',
         place: 'Photobox',
         show: true,
+        description: '',
       },
     ],
   },
@@ -54,6 +59,7 @@ export default {
         title: 'Master’s degree in Communication',
         place: 'University Paris Sorbonne',
         show: true,
+        description: '',
       },
       {
         order: 1,
@@ -61,6 +67,7 @@ export default {
         title: 'Full stack Javascript Training',
         place: 'IFOCOP',
         show: true,
+        description: '',
       },
       {
         order: 2,
@@ -68,6 +75,7 @@ export default {
         title: 'Training in Javascript and Python',
         place: 'Self-teaching',
         show: true,
+        description: '',
       },
     ],
   },
@@ -79,16 +87,19 @@ export default {
         order: 0,
         title: 'Native speaker French, fluent in English.',
         show: true,
+        description: '',
       },
       {
         order: 1,
         title: 'Passionate traveller. Fond of running, trail and mountain bike.',
         show: true,
+        description: '',
       },
       {
         order: 2,
         title: 'I really love cinema, especially Kubrick, Visconti and Tarkovsky.',
         show: true,
+        description: '',
       },
     ],
   },

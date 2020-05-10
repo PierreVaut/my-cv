@@ -5,7 +5,7 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Javascript ES6+ (confirmed)',
+        title: 'Javascript ES6+',
         show: true,
       },
       {
@@ -83,7 +83,7 @@ export default {
       },
       {
         order: 1,
-        title: 'Ansible',
+        title: 'Kubernetes (soon)',
         show: true,
       },
     ],
@@ -116,7 +116,7 @@ export default {
       },
       {
         order: 2,
-        title: 'Github, Gitlab, Jenkins',
+        title: 'Github, Jenkins',
         show: true,
       },
     ],
