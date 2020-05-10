@@ -26,12 +26,12 @@ export default {
     items: [
       {
         order: 0,
-        title: 'React',
+        title: 'React - Redux',
         show: true,
       },
       {
         order: 1,
-        title: 'Redux - Saga',
+        title: 'Saga',
         show: true,
       },
       {
@@ -41,6 +41,11 @@ export default {
       },
       {
         order: 3,
+        title: 'Ramda',
+        show: true,
+      },
+      {
+        order: 4,
         title: 'Immutability helper',
         show: true,
       },
@@ -83,7 +88,7 @@ export default {
       },
       {
         order: 1,
-        title: 'Kubernetes (soon)',
+        title: '// Kubernetes (soon)',
         show: true,
       },
     ],

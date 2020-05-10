@@ -4,6 +4,7 @@ export default {
   firstName: 'Pierre',
   lastName: 'Vautherin',
   email: 'p.vautherin@hotmail.com',
+  title: '// Software Engineer Fullstack',
   github: {
     text: 'github.com/PierreVaut',
     link: 'https://github.com/PierreVaut',
@@ -19,7 +20,7 @@ export default {
     show: true,
     alt: 'pv',
   },
-  summary: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-     unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  summary: `I am a big fan of React-redux and AWS asolutions.
+    I worked a few years in the digital publishing industry, before working in web development.
+    I am a hard worker, motivated by technical challenges`,
 };
