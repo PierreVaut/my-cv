@@ -1,7 +1,8 @@
 .left
 .item-title {
-  margin: 7px 5px 3px 5px;
+  margin: 5px 5px 3px 5px;
   font-weight: bold;
+  line-height: 1.25;
 }
 
 
@@ -15,8 +16,14 @@
 .miscellaneous
 .item-title {
   font-weight: normal;
-  margin: 3px;
+  margin: 3px 5px;
 }
 
-.timePeriod { margin-left: 2px }
-.description { margin-left: 2px }
+.timePeriod {
+  margin-left: 3px;
+}
+
+.description {
+  margin-left: 20px;
+  text-indent: -12px;
+}

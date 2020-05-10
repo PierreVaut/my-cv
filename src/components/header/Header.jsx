@@ -8,7 +8,7 @@ import './Header.css';
 const Header = ({ resource }) => {
   const { [resource]: headerData } = useContext(ResumeContext);
   const {
-    firstName, lastName, email, github, linkedin, image, summary,
+    firstName, lastName, email, github, linkedin, image, summary, title,
   } = headerData;
 
   return headerData && (
@@ -17,19 +17,21 @@ const Header = ({ resource }) => {
         <h1>
           {`${firstName} ${lastName}`}
         </h1>
-        {'Email: '}
-        <a href={email}>{email}</a>
-
-        <div>
-          {`${github.description}: `}
-          <a href={github.link}>{github.text}</a>
-        </div>
-
-        <div>
-          {`${linkedin.description}: `}
-          <a href={linkedin.link}>{linkedin.text}</a>
-        </div>
+        <div className="header-title">{title}</div>
         {summary && <div className="header-summary" data-testid="header-summary">{summary}</div>}
+        {/* 'Email: ' */}
+
+        <a className="headerLink" href={email}>{email}</a>
+
+        <div>
+          {/* `${github.description}: ` */}
+          <a className="headerLink" href={github.link}>{github.text}</a>
+        </div>
+
+        <div>
+          {/* `${linkedin.description}: ` */}
+          <a className="headerLink" href={linkedin.link}>{linkedin.text}</a>
+        </div>
 
 
       </div>

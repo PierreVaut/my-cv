@@ -2,18 +2,23 @@
   height: max-content;
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px 20px 40px;
-  background-color: rgb(79, 121, 206);
+  padding: 15px 20px 10px 40px;
+  background-color:rgb(45, 141, 170);
 }
 
 .header-text {
   width: 70%;
 }
 
+.header-title {
+  font-size: large;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
 .header-summary {
   text-align: justify;
-  padding-right: 10px;
-  margin-top: 10px;
+  margin: 5px 0;
 }
 
 .header-img-container {
@@ -39,6 +44,8 @@ p{
 }
 
 
-a {
- margin-left: 4px;;
+.headerLink {
+ margin-left: 4px;
+ color: rgb(242, 242, 242);
+ text-decoration: none;
 }
