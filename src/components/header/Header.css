@@ -2,7 +2,7 @@
   height: max-content;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 20px 20px 40px;
   background-color: rgb(79, 121, 206);
 }
 

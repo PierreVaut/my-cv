@@ -1,3 +1,22 @@
-.item {
-  margin: 5px
+.left
+.item-title {
+  margin: 7px 5px 3px 5px;
+  font-weight: bold;
 }
+
+
+.right
+.item-title {
+  margin: 3px 5px 3px 5px;
+}
+
+
+.left
+.miscellaneous
+.item-title {
+  font-weight: normal;
+  margin: 3px;
+}
+
+.timePeriod { margin-left: 2px }
+.description { margin-left: 2px }

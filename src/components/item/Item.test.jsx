@@ -18,7 +18,7 @@ test('renders Item component', () => {
   );
   expect(getByTestId('item-some-title')).toBeInTheDocument();
   expect(getByText('some-title')).toBeInTheDocument();
-  expect(getByText('some-place')).toBeInTheDocument();
+  expect(getByText('- some-place')).toBeInTheDocument();
   expect(getByText('some-time-period')).toBeInTheDocument();
 });
 

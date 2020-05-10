@@ -8,7 +8,6 @@ const Item = ({ itemData }) => {
   } = itemData;
   return show && (
     <div
-      className="item"
       data-testid={`item-${title}`}
     >
       <div className="item-title">
