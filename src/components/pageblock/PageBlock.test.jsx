@@ -19,8 +19,8 @@ test('renders ItemBlock components', () => {
   const mockState = {
     ...initialState,
     'some-pageBlock-level-resource': {
-      'some-ItemBlock-level-resource': [],
-      'some-other-ItemBlock-level-resource': [],
+      'some-ItemBlock-level-resource': { items: [] },
+      'some-other-ItemBlock-level-resource': { items: [] },
     },
   };
   const { getByTestId, getByText } = render(

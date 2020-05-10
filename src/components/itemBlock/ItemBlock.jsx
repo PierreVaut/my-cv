@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import Item from '../item';
 
 
-const ItemBlock = ({ itemBlockType, itemBlockData: { items, logo } }) => (
+const ItemBlock = ({ itemBlockType, itemBlockData: { items, logo } = {} }) => (
   <div className={`${itemBlockType} itemBlock`} data-testid={`item-block-${itemBlockType}`}>
-    {logo && <div className="item-block-image"><img src={logo} alt={itemBlockType} /></div>}
+    {logo && <div className="item-block-image" data-testid="item-block-image"><img src={logo} alt={itemBlockType} /></div>}
     <div className="item-block-title capitalize" data-testid="title">
       {itemBlockType}
     </div>
