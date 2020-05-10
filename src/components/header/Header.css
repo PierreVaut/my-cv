@@ -10,21 +10,20 @@
   width: 70%;
 }
 
-.header-img {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-
 .header-summary {
   text-align: justify;
   padding-right: 10px;
   margin-top: 10px;
 }
 
-img {
+.header-img-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-img {
   width: 73%;
   height: 85%;
   border-radius: 100%;

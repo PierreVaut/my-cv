@@ -3,9 +3,25 @@
   display: flex;
   flex-direction: column;
   margin: 15px 0;
+  position: relative;
 }
 
-.title {
+.item-block-title {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
+
+.item-block-image {
+  width: 19px;
+  height: 19px;
+  margin-right: 3px;
+  position: absolute;
+  left: -20px;
+}
+
+
+.item-block-image img {
+  width: 100%;
+}
+

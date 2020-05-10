@@ -33,8 +33,8 @@ const Header = ({ resource }) => {
 
 
       </div>
-      <div className="header-img" data-testid="header-img">
-        <img src={image.src} alt={image.alt} />
+      <div className="header-img-container" data-testid="header-img">
+        <img src={image.src} alt={image.alt} className="header-img" />
 
       </div>
     </div>
