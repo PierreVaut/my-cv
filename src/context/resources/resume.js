@@ -1,11 +1,12 @@
 import educationLogo from '../../assets/educ.png';
 import workLogo from '../../assets/work.png';
-
+import { sortDesc as oldestFirst } from '../../utils';
 
 export default {
   experience: {
     visible: true,
     logo: workLogo,
+    sortFunc: oldestFirst,
     items: [
       {
         order: 0,
@@ -52,6 +53,7 @@ export default {
   education: {
     visible: true,
     logo: educationLogo,
+    sortFunc: oldestFirst,
     items: [
       {
         order: 0,
