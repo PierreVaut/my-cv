@@ -21,7 +21,7 @@ const Header = ({ resource }) => {
         {summary && <div className="header-summary" data-testid="header-summary">{summary}</div>}
         {/* 'Email: ' */}
 
-        <a className="headerLink" href={email}>{email}</a>
+        <a className="headerLink" href={`mailto:${email}`}>{email}</a>
 
         <div>
           {/* `${github.description}: ` */}
