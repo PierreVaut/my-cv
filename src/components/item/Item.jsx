@@ -4,16 +4,23 @@ import './Item.css';
 
 const Item = ({ itemData }) => {
   const {
-    title, place, timePeriod, show,
+    title, place, timePeriod, show, description,
   } = itemData;
   return show && (
     <div
       className="item"
       data-testid={`item-${title}`}
     >
+      <div className="item-title">
+        {title}
+        {place && (
+        <span className="place">
+          { ` - ${place}`}
+        </span>
+        )}
+      </div>
       {timePeriod && <div className="timePeriod">{timePeriod}</div>}
-      <div className="item-title">{title}</div>
-      {place && <div className="place">{place}</div>}
+      {description && description.map((descriptionItem) => <div className="description" key={descriptionItem}>{descriptionItem}</div>)}
     </div>
   );
 };
@@ -26,7 +33,7 @@ Item.propTypes = {
       title: PropTypes.string.isRequired,
       place: PropTypes.string,
       show: PropTypes.bool.isRequired,
-      description: PropTypes.string,
+      description: PropTypes.arrayOf(PropTypes.string),
     }).isRequired,
 };
 
