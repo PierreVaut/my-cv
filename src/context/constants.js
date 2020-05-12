@@ -4,4 +4,5 @@ export default {
   RESUME: 'resume',
   SKILLS: 'skills',
   FOOTER: 'footer',
+  DOWNLOAD_BUTTON: 'dowloadButton',
 };

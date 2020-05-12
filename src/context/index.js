@@ -2,7 +2,7 @@ import React from 'react';
 import constants from './constants';
 
 import {
-  headerData, resumeData, footerData, skillsData,
+  headerData, resumeData, footerData, skillsData, downloadButtonData,
 } from './resources';
 
 export const initialState = {
@@ -10,6 +10,7 @@ export const initialState = {
   [constants.SKILLS]: skillsData,
   [constants.RESUME]: resumeData,
   [constants.FOOTER]: footerData,
+  [constants.DOWNLOAD_BUTTON]: downloadButtonData,
 };
 
 export default React.createContext(initialState);
