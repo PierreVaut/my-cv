@@ -4,19 +4,20 @@ import ResumeContext from '../../context';
 import './DownloadButton.css';
 
 const DownloadButton = ({ resource }) => {
-  const { [resource]: data } = useContext(ResumeContext);
   const {
-    text: buttonText,
-    icon: buttonIcon,
-    link: buttonLink,
-  } = data;
+    [resource]: {
+      text: buttonText,
+      icon: buttonIcon,
+      link: buttonLink,
+    },
+  } = useContext(ResumeContext);
 
   return (
     <div className={resource} data-testid={resource}>
-      <div className={`${resource}-container`}>
+      <a className={`${resource}-container`} data-testid={`${resource}-container`} href={buttonLink} target="_blank" rel="noopener noreferrer" download>
         <img src={buttonIcon} className={`${resource}-icon`} alt={`${resource}-icon}`} />
-        <a href={buttonLink} className={`${resource}-link`} target="_blank" rel="noopener noreferrer" download>{buttonText}</a>
-      </div>
+        <div className={`${resource}-link`}>{buttonText}</div>
+      </a>
     </div>
   );
 };
