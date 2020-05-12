@@ -16,7 +16,7 @@ const ItemBlock = ({
     className={`${itemBlockType} itemBlock`}
     data-testid={`item-block-${itemBlockType}`}
   >
-    {logo && <div className="item-block-image" data-testid="item-block-image"><img src={logo} alt={itemBlockType} /></div>}
+    {logo && <img className="item-block-image" data-testid="item-block-image" src={logo} alt={itemBlockType} />}
     <div className="item-block-title capitalize" data-testid="title">
       {itemBlockType}
     </div>

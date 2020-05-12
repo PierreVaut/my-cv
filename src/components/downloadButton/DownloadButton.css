@@ -1,3 +1,31 @@
 .downloadButton {
+  position: fixed;
+  height: 45px;
+  width: 120px;
+  border: 1px solid purple;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkgrey;
+}
 
+.downloadButton-container {
+  background-color: green;
+}
+
+.downloadButton-icon {
+  width: 20px;
+}
+
+.downloadButton-link {
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.downloadButton-icon {
+  width: 19px;
+  height: 19px;
+  margin-right: 3px;
+  position: absolute;
 }

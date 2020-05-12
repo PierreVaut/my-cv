@@ -13,8 +13,10 @@ const DownloadButton = ({ resource }) => {
 
   return (
     <div className={resource} data-testid={resource}>
-      <img src={buttonIcon} alt={`${resource}-icon}`} />
-      <a href={buttonLink} target="_blank" rel="noopener noreferrer" download>{buttonText}</a>
+      <div className={`${resource}-container`}>
+        <img src={buttonIcon} className={`${resource}-icon`} alt={`${resource}-icon}`} />
+        <a href={buttonLink} className={`${resource}-link`} target="_blank" rel="noopener noreferrer" download>{buttonText}</a>
+      </div>
     </div>
   );
 };
