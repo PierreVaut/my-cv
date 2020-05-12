@@ -1,25 +1,24 @@
 .downloadButton {
+  display: flex;
   position: fixed;
-  height: 45px;
-  width: 120px;
-  border: 1px solid purple;
   top: 25px;
   left: 25px;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: darkgrey;
+  justify-content: center;
+  border-radius: 5%;
+  background-color: rgb(223, 218, 218);
+  padding: 14px;
 }
 
 .downloadButton-container {
-  background-color: green;
-}
-
-.downloadButton-icon {
-  width: 20px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .downloadButton-link {
-  text-decoration: none;
+  display: flex;
   margin-left: 24px;
 }
 
@@ -28,4 +27,27 @@
   height: 19px;
   margin-right: 3px;
   position: absolute;
+
+}
+
+@media screen and (max-width: 600px) {
+  .downloadButton {
+    top: 5px;
+    left: 5px;
+    border-radius: 10%;
+  }
+  .downloadButton-link {
+    display: none
+  }
+
+  .downloadButton-icon {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    margin-left: -12px;
+  }
+
+  .downloadButton-link {
+    margin: 0;
+  }
 }
