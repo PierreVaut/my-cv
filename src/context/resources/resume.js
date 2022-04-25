@@ -1,6 +1,6 @@
-import educationLogo from '../../assets/educ.png';
-import workLogo from '../../assets/work.png';
-import { sortDesc as oldestFirst } from '../../utils';
+import educationLogo from '../../assets/educ.png'
+import workLogo from '../../assets/work.png'
+import { sortDesc as oldestFirst } from '../../utils'
 
 export default {
   experience: {
@@ -10,19 +10,14 @@ export default {
     items: [
       {
         order: 0,
-        timePeriod: '2008 - 2011',
+        timePeriod: '2008 - 2017',
         title: 'Project manager',
-        place: 'Cairn.info',
+        place: '',
         show: true,
-        description: ['> Managed digital books and journals in Humanities'],
-      },
-      {
-        order: 1,
-        timePeriod: '2012 - 2017',
-        title: 'Project manager',
-        place: 'Elsevier',
-        show: true,
-        description: ['> Managed digital books and journals in Health Sciences'],
+        description: [
+          '> Elsevier - digital books and journals in Health Science',
+          '> Cairn.info - digital books and journals in Humanities'
+        ]
       },
       {
         order: 2,
@@ -30,7 +25,7 @@ export default {
         title: 'Fullstack developer Javascript',
         place: 'Groupeer Technologies',
         show: true,
-        description: ['> Created a fleet management service for the IoT devices'],
+        description: ['> Created a fleet management service for the IoT devices']
       },
       {
         order: 3,
@@ -38,7 +33,9 @@ export default {
         title: 'Backend developer Python',
         place: 'SFR',
         show: true,
-        description: ['> Contributed to application maintenance, created a webservice for Cloud clients, improved test coverage'],
+        description: [
+          '> Contributed to application maintenance, created a webservice for Cloud clients, improved test coverage'
+        ]
       },
       {
         order: 4,
@@ -50,9 +47,10 @@ export default {
           'AI-in-Editor Team',
           '> Improved Conversion rate by implementing AI features (Autofill, Shuffle layout, Easy-Create) in the creation process',
           '> Improved Time-to-action using frontend image compression',
-          '> Improved UX using Cross-device Firebase dynamic link'],
-      },
-    ],
+          '> Improved UX using Cross-device Firebase dynamic link'
+        ]
+      }
+    ]
   },
   education: {
     visible: true,
@@ -63,24 +61,25 @@ export default {
         order: 0,
         title: 'Master’s degree in Communication',
         place: 'Sorbonne University - 2008',
-        show: true,
+        show: true
       },
       {
         order: 2,
         title: 'Full stack Javascript Training',
         place: 'IFOCOP - 2018',
         show: true,
-        description: ['> frontend project: Fallout RPG in React', '> fullstack project: Realtime Bitcoin trading simulator'],
-
+        description: [
+          '> frontend project: Fallout RPG in React',
+          '> fullstack project: Realtime Bitcoin trading simulator'
+        ]
       },
       {
         order: 1,
         title: 'Self-training Javascript and Python - 2017',
         show: true,
-        description: ['> frontend project: Dynamic newsfeed website'],
-
-      },
-    ],
+        description: ['> frontend project: Dynamic newsfeed website']
+      }
+    ]
   },
   miscellaneous: {
     visible: true,
@@ -89,18 +88,18 @@ export default {
       {
         order: 0,
         title: 'Native speaker French, fluent in English.',
-        show: true,
+        show: true
       },
       {
         order: 1,
-        title: 'Passionate traveller. Fond of running, trail and mountain bike.',
-        show: true,
+        title: 'Passionate traveller and rider. Fond of trail running.',
+        show: true
       },
       {
         order: 2,
         title: 'I really love cinema, especially Kubrick, Visconti and Tarkovsky.',
-        show: true,
-      },
-    ],
-  },
-};
+        show: true
+      }
+    ]
+  }
+}
