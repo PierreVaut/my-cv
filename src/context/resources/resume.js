@@ -1,5 +1,6 @@
 import educationLogo from '../../assets/educ.png'
 import workLogo from '../../assets/work.png'
+import miscLogo from '../../assets/misc.png'
 import { sortDesc as oldestFirst } from '../../utils'
 
 export default {
@@ -13,42 +14,48 @@ export default {
         timePeriod: '2008 - 2017',
         title: 'Project manager',
         place: '',
-        show: true,
-        description: [
-          '> Elsevier - digital books and journals in Health Science',
-          '> Cairn.info - digital books and journals in Humanities'
-        ]
+        show: true
+        /*         description: [
+          '> Elsevier - managed books & journals in Health Sciences',
+          '> Cairn.info - managed journals in Humanities'
+        ] */
       },
       {
         order: 2,
         timePeriod: 'Feb - July 2018',
-        title: 'Fullstack developer Javascript',
+        title: 'Fullstack developer',
         place: 'Groupeer Technologies',
         show: true,
-        description: ['> Created a fleet management service for the IoT devices']
+        description: ['> Created a fleet management service for IoT devices']
       },
       {
         order: 3,
         timePeriod: 'July - Oct 2018',
-        title: 'Backend developer Python',
+        title: 'Backend developer',
         place: 'SFR',
-        show: true,
-        description: [
-          '> Contributed to application maintenance, created a webservice for Cloud clients, improved test coverage'
-        ]
+        show: false,
+        description: ['> Created and maintained webservices for Cloud clients']
       },
       {
         order: 4,
-        timePeriod: 'Nov 2018 - present',
+        timePeriod: 'Nov 2018 - Oct 2020',
         title: 'Software Engineer',
         place: 'Photobox',
         show: true,
         description: [
           'AI-in-Editor Team',
-          '> Improved Conversion rate by implementing AI features (Autofill, Shuffle layout, Easy-Create) in the creation process',
+          '> Improved Conversion rate by implementing AI features (Autofill, Shuffle layout, Easy-Create)',
           '> Improved Time-to-action using frontend image compression',
           '> Improved UX using Cross-device Firebase dynamic link'
         ]
+      },
+      {
+        order: 5,
+        timePeriod: 'Oct 2020 - present',
+        title: 'Frontend developer',
+        place: 'SeLoger',
+        show: true,
+        description: ['> Created and maintained webservices for Cloud clients']
       }
     ]
   },
@@ -69,21 +76,21 @@ export default {
         place: 'IFOCOP - 2018',
         show: true,
         description: [
-          '> frontend project: Fallout RPG in React',
+          '> frontend project: Fallout-style RPG in React',
           '> fullstack project: Realtime Bitcoin trading simulator'
         ]
       },
       {
         order: 1,
         title: 'Self-training Javascript and Python - 2017',
-        show: true,
+        show: false,
         description: ['> frontend project: Dynamic newsfeed website']
       }
     ]
   },
   miscellaneous: {
     visible: true,
-    logo: educationLogo,
+    logo: miscLogo,
     items: [
       {
         order: 0,

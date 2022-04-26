@@ -1,20 +1,18 @@
-.left
-.item-title {
+.left .item-title {
   margin: 5px 5px 3px 5px;
   font-weight: bold;
   line-height: 1.25;
 }
 
+.left .position-title {
+  color: rgb(56, 56, 56);
+}
 
-.right
-.item-title {
+.right .item-title {
   margin: 3px 5px 3px 5px;
 }
 
-
-.left
-.miscellaneous
-.item-title {
+.left .miscellaneous .item-title {
   font-weight: normal;
   margin: 3px 5px;
 }

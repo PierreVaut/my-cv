@@ -6,19 +6,14 @@ export default {
       {
         order: 0,
         title: 'Javascript ES6+',
-        show: true,
+        show: true
       },
       {
         order: 1,
-        title: 'Python (beginner)',
-        show: true,
-      },
-      {
-        order: 2,
         title: 'HTML CSS',
-        show: true,
-      },
-    ],
+        show: true
+      }
+    ]
   },
   'Libs & frameworks': {
     visible: true,
@@ -26,30 +21,25 @@ export default {
     items: [
       {
         order: 0,
-        title: 'React - Redux',
-        show: true,
+        title: 'React',
+        show: true
       },
       {
         order: 1,
-        title: 'Saga',
-        show: true,
+        title: 'Hooks',
+        show: true
       },
       {
         order: 2,
-        title: 'Reselect - Recompose',
-        show: true,
+        title: 'Redux-saga',
+        show: true
       },
       {
         order: 3,
         title: 'Ramda',
-        show: true,
-      },
-      {
-        order: 4,
-        title: 'Immutability helper',
-        show: true,
-      },
-    ],
+        show: true
+      }
+    ]
   },
   backend: {
     visible: true,
@@ -58,24 +48,24 @@ export default {
       {
         order: 0,
         title: 'Node.js',
-        show: true,
+        show: true
       },
       {
         order: 1,
-        title: 'REST, GraphQL',
-        show: true,
+        title: 'Rest, GraphQL',
+        show: true
       },
       {
         order: 2,
-        title: 'PostgreSQL, MariaDB',
-        show: true,
+        title: 'PostgreSQL',
+        show: true
       },
       {
         order: 3,
-        title: 'Mongo, DynamoDB',
-        show: true,
-      },
-    ],
+        title: 'MongoDB, DynamoDB',
+        show: true
+      }
+    ]
   },
   devops: {
     visible: true,
@@ -83,15 +73,15 @@ export default {
     items: [
       {
         order: 0,
-        title: 'AWS Lambda, S3, EC2',
-        show: true,
+        title: 'AWS Lambda, EKS',
+        show: true
       },
       {
         order: 1,
-        title: '// Kubernetes (soon)',
-        show: true,
-      },
-    ],
+        title: 'CircleCI',
+        show: true
+      }
+    ]
   },
   versionning: {
     visible: true,
@@ -100,10 +90,9 @@ export default {
       {
         order: 0,
         title: 'Git',
-        show: true,
-      },
-
-    ],
+        show: true
+      }
+    ]
   },
   project: {
     visible: true,
@@ -111,19 +100,19 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Agile (Kanban & Scrum)',
-        show: true,
+        title: 'Scrum & Kanban',
+        show: true
       },
       {
         order: 1,
         title: 'JIRA, Confluence',
-        show: true,
+        show: true
       },
       {
         order: 2,
-        title: 'Github, Jenkins',
-        show: true,
-      },
-    ],
-  },
-};
+        title: 'Github',
+        show: true
+      }
+    ]
+  }
+}
