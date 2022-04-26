@@ -55,7 +55,11 @@ export default {
         title: 'Frontend developer',
         place: 'SeLoger',
         show: true,
-        description: ['> Created and maintained webservices for Cloud clients']
+        description: [
+          '> Migrated the application on Next.JS using Monorepo architecture',
+          '> Improved WebVitals Metrics',
+          '> Handled GDPR consent using Didomi'
+        ]
       }
     ]
   },

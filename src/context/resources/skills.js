@@ -26,16 +26,21 @@ export default {
       },
       {
         order: 1,
-        title: 'Hooks',
+        title: 'Next.JS',
         show: true
       },
       {
         order: 2,
-        title: 'Redux-saga',
+        title: 'Hooks',
         show: true
       },
       {
         order: 3,
+        title: 'Redux-saga',
+        show: true
+      },
+      {
+        order: 4,
         title: 'Ramda',
         show: true
       }
