@@ -17,6 +17,7 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
+  "ignorePatterns": ["puppeteer.js"],
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "semi": ["error", "never"],

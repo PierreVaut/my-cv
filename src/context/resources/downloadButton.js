@@ -1,7 +1,7 @@
-import icon from '../../assets/download.png';
+import icon from '../../assets/download.png'
 
 export default {
   text: 'download PDF',
   icon,
-  link: 'https://cv-pierrevautherin.s3.amazonaws.com/CV_Pvautherin_EN_2020.pdf',
-};
+  link: 'https://s3.amazonaws.com/randomwebsite.xyz/CV-web-PVautherin_EN_2022.pdf'
+}

@@ -7,18 +7,20 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "prop-types": "^15.7.2",
+    "puppeteer-core": "^3.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "puppeteer-core": "^3.0.4"
+    "rimraf": "^3.0.2"
   },
   "scripts": {
+    "clean": "rimraf build/*",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync --delete build/ s3://randomwebsite.xyz --profile cvPierrevautherinWebapp",
+    "deploy": "yarn clean && yarn pdf && yarn build && aws s3 sync --delete build/ s3://randomwebsite.xyz --profile cvPierrevautherinWebapp",
     "pdf": "node puppeteer.js"
   },
   "eslintConfig": {
