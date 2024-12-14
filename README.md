@@ -22,10 +22,10 @@ This project was started in 2020, before Typescript became the industry standard
 If I had plenty of time, I would definitely migrate it on Typescript !
 Typing the 'resources' file would offer better consistency.
 
-It uses React 18. Removing CRA and migrating on React 19 wouldn't hurt as well !
+It uses React 18. Removing CRA and migrating to React 19 would be definitely nice to have!
 
 The state is managed using React Context, which IMHO is perfectly enough to manage the static data.
-This choice was documented in the ADR 003 "single source of truth".
+This choice was documented in the [ADR 003 "single source of truth"](https://github.com/PierreVaut/my-cv/blob/master/docs/adrs/0003-single-source-of-truth.md).
 
 UI relies on CSS, which is still OK in 2025 for a static web page.
 We will need to check if it scales well
