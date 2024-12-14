@@ -1,3 +1,3 @@
-import PageBlock from './PageBlock';
+import PageBlock from './PageBlock'
 
-export default PageBlock;
+export default PageBlock

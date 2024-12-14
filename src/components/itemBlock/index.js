@@ -1,1 +1,1 @@
-export { default } from './ItemBlock';
+export { default } from './ItemBlock'

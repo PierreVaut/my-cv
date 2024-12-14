@@ -1,13 +1,12 @@
-import React, { useContext } from 'react';
-import './PageBlock.css';
-import PropTypes from 'prop-types';
+import React, { useContext } from 'react'
+import './PageBlock.css'
+import PropTypes from 'prop-types'
 
-import ResumeContext from '../../context';
-import ItemBlock from '../itemBlock/ItemBlock';
-
+import ResumeContext from '../../context'
+import ItemBlock from '../itemBlock/ItemBlock'
 
 const PageBlock = ({ className, resource }) => {
-  const { [resource]: pageBlockData = {} } = useContext(ResumeContext);
+  const { [resource]: pageBlockData = {} } = useContext(ResumeContext)
   return (
     <div className={className} data-testid={`page-block-${resource}`}>
       {
@@ -23,12 +22,12 @@ const PageBlock = ({ className, resource }) => {
       }
 
     </div>
-  );
-};
+  )
+}
 
 PageBlock.propTypes = {
   resource: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
-};
+}
 
-export default PageBlock;
+export default PageBlock

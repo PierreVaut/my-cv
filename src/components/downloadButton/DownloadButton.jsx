@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
-import ResumeContext from '../../context';
-import './DownloadButton.css';
+import React, { useContext } from 'react'
+import PropTypes from 'prop-types'
+import ResumeContext from '../../context'
+import './DownloadButton.css'
 
 const DownloadButton = ({ resource }) => {
   const {
@@ -10,7 +10,7 @@ const DownloadButton = ({ resource }) => {
       icon: buttonIcon,
       link: buttonLink,
     },
-  } = useContext(ResumeContext);
+  } = useContext(ResumeContext)
 
   return (
     <div className={resource} data-testid={resource}>
@@ -19,11 +19,11 @@ const DownloadButton = ({ resource }) => {
         <div className={`${resource}-link`}>{buttonText}</div>
       </a>
     </div>
-  );
-};
+  )
+}
 
 DownloadButton.propTypes = {
   resource: PropTypes.string.isRequired,
-};
+}
 
-export default DownloadButton;
+export default DownloadButton

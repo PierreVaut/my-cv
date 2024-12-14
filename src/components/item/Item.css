@@ -1,5 +1,5 @@
 .left .item-title {
-  margin: 5px 5px 3px 5px;
+  margin: 10px 5px 3px 5px;
   font-weight: bold;
   line-height: 1.25;
 }
@@ -9,7 +9,7 @@
 }
 
 .right .item-title {
-  margin: 3px 5px 3px 5px;
+  margin: 5px 5px 3px 5px;
 }
 
 .left .miscellaneous .item-title {

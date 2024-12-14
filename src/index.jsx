@@ -1,16 +1,20 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import './index.css'
-import { HashRouter, Switch, Route } from 'react-router-dom'
+import {
+  HashRouter, Switch, Route
+} from 'react-router-dom'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import ResumeContext, { initialState } from './context'
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'))
+
+root.render(
   <React.StrictMode>
     <HashRouter>
       <Switch>
-        <Route path="/pierre-vautherin-cv-2022">
+        <Route path="/pierre-vautherin-cv-2025">
           <ResumeContext.Provider value={initialState}>
             <App />
           </ResumeContext.Provider>
@@ -19,8 +23,7 @@ ReactDOM.render(
         <Route path="/">Nothing here yet...</Route>
       </Switch>
     </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 )
 
 // If you want your app to work offline and load faster, you can change

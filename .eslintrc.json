@@ -17,10 +17,11 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "ignorePatterns": ["puppeteer.js"],
+  "ignorePatterns": ["puppeteer.js", "serviceWorker.js", "sort.js"],
   "rules": {
     "react/jsx-props-no-spreading": "off",
     "semi": ["error", "never"],
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "object-curly-newline": "off"
   }
 }

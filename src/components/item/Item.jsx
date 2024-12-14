@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import './Item.css'
 
 const Item = ({ itemData }) => {
-  const { title, place, timePeriod, show, description } = itemData
+  const {
+    title, place, timePeriod, show, description
+  } = itemData
   return (
     show && (
       <div data-testid={`item-${title}`}>
@@ -12,8 +14,8 @@ const Item = ({ itemData }) => {
           <span className="position-title">{title}</span>
         </div>
         {timePeriod && <div className="timePeriod">{timePeriod}</div>}
-        {description &&
-          description.map((descriptionItem) => (
+        {description
+          && description.map((descriptionItem) => (
             <div className="description" key={descriptionItem}>
               {descriptionItem}
             </div>

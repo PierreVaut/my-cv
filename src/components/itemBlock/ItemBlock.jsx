@@ -1,10 +1,9 @@
-import React from 'react';
-import './ItemBlock.css';
-import PropTypes from 'prop-types';
-import Item from '../item';
+import React from 'react'
+import './ItemBlock.css'
+import PropTypes from 'prop-types'
+import Item from '../item'
 
-import { sortAsc as defaultSort } from '../../utils';
-
+import { sortAsc as defaultSort } from '../../utils'
 
 const ItemBlock = ({
   itemBlockType,
@@ -22,7 +21,7 @@ const ItemBlock = ({
     </div>
     {items.sort(sortFunc).map((itemData) => <Item itemData={itemData} key={itemData.order} />)}
   </div>
-);
+)
 
 ItemBlock.propTypes = {
   itemBlockType: PropTypes.string.isRequired,
@@ -40,6 +39,6 @@ ItemBlock.propTypes = {
     ).isRequired,
   }).isRequired,
 
-};
+}
 
-export default ItemBlock;
+export default ItemBlock

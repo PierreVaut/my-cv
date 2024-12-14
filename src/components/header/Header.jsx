@@ -1,15 +1,14 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
-import ResumeContext from '../../context';
-import './Header.css';
-
+import React, { useContext } from 'react'
+import PropTypes from 'prop-types'
+import ResumeContext from '../../context'
+import './Header.css'
 
 const Header = ({ resource }) => {
-  const { [resource]: headerData } = useContext(ResumeContext);
+  const { [resource]: headerData } = useContext(ResumeContext)
   const {
     firstName, lastName, email, github, linkedin, image, summary, title,
-  } = headerData;
+  } = headerData
 
   return headerData && (
     <div className="header" data-testid="header">
@@ -33,18 +32,17 @@ const Header = ({ resource }) => {
           <a className="headerLink" href={linkedin.link}>{linkedin.text}</a>
         </div>
 
-
       </div>
       <div className="header-img-container" data-testid="header-img">
         <img src={image.src} alt={image.alt} className="header-img" />
 
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
 
 Header.propTypes = {
   resource: PropTypes.string.isRequired,
-};
+}

@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import {
   Header, PageBlock, Footer, DownloadButton,
-} from './components';
-import { constants } from './context';
+} from './components'
+import { constants } from './context'
 
 const {
   RESUME, SKILLS, HEADER, FOOTER, DOWNLOAD_BUTTON,
-} = constants;
+} = constants
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       </div>
       <DownloadButton resource={DOWNLOAD_BUTTON} />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
