@@ -3,8 +3,8 @@ import resumePicture from '../../assets/resume.JPG'
 export default {
   firstName: 'Pierre',
   lastName: 'Vautherin',
-  email: 'p.vautherin@hotmail.com',
-  title: 'Software Engineer Javascript',
+  email: 'p.vautherin@protonmail.com',
+  title: 'Lead Software Engineer',
   github: {
     text: 'github.com/PierreVaut',
     link: 'https://github.com/PierreVaut',
@@ -20,7 +20,6 @@ export default {
     show: true,
     alt: 'pv'
   },
-  summary: `I am a big fan of React-redux and AWS solutions.
-    I worked a few years in the publishing industry, before working in web development.
-    I am a hard worker, motivated by technical challenges`
+  summary: `I have seven years of experience in designing and developing scalable Web applications.
+  I have a Frontend background, but I am a regular contributor to Backend as well and to Devops solutions.`
 }

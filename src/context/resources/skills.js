@@ -5,7 +5,7 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Javascript ES6+',
+        title: 'Typescript',
         show: true
       },
       {
@@ -26,22 +26,17 @@ export default {
       },
       {
         order: 1,
-        title: 'Next.JS',
+        title: 'NextJS',
         show: true
       },
       {
         order: 2,
-        title: 'Hooks',
+        title: 'Webpack / module federation',
         show: true
       },
       {
         order: 3,
-        title: 'Redux-saga',
-        show: true
-      },
-      {
-        order: 4,
-        title: 'Ramda',
+        title: 'Jest / Cypress',
         show: true
       }
     ]
@@ -52,22 +47,17 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Node.js',
+        title: 'Node',
         show: true
       },
       {
         order: 1,
-        title: 'Rest, GraphQL',
+        title: 'GraphQL',
         show: true
       },
       {
         order: 2,
-        title: 'PostgreSQL',
-        show: true
-      },
-      {
-        order: 3,
-        title: 'MongoDB, DynamoDB',
+        title: 'NestJS',
         show: true
       }
     ]
@@ -78,12 +68,12 @@ export default {
     items: [
       {
         order: 0,
-        title: 'AWS Lambda, EKS',
+        title: 'AWS Lambda, ECS',
         show: true
       },
       {
         order: 1,
-        title: 'CircleCI',
+        title: 'CircleCI pipeline',
         show: true
       }
     ]
@@ -94,7 +84,7 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Git',
+        title: 'Git / GitHb',
         show: true
       }
     ]
@@ -105,17 +95,12 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Scrum & Kanban',
+        title: 'Agile',
         show: true
       },
       {
         order: 1,
         title: 'JIRA, Confluence',
-        show: true
-      },
-      {
-        order: 2,
-        title: 'Github',
         show: true
       }
     ]

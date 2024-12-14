@@ -23,10 +23,13 @@ export default {
       {
         order: 2,
         timePeriod: 'Feb - July 2018',
-        title: 'Fullstack developer',
+        title: 'Fullstack developer (Intern)',
         place: 'Groupeer Technologies',
         show: true,
-        description: ['> Created a fleet management service for IoT devices']
+        description: [
+          '> React Typescript App internationalization',
+          '> Fleet management service for IoT devices creation'
+        ]
       },
       {
         order: 3,
@@ -44,21 +47,21 @@ export default {
         show: true,
         description: [
           'AI-in-Editor Team',
-          '> Improved Conversion rate by implementing AI features (Autofill, Shuffle layout, Easy-Create)',
-          '> Improved Time-to-action using frontend image compression',
-          '> Improved UX using Cross-device Firebase dynamic link'
+          '> Contribution to AI features for Photo books creation',
+          '> Frontend image optimization to improve speed and interactivity',
+          '> Dynamic linking between Apps and Web experience'
         ]
       },
       {
         order: 5,
         timePeriod: 'Oct 2020 - present',
-        title: 'Frontend developer',
-        place: 'SeLoger',
+        title: 'Lead Software Engineer',
+        place: 'SeLoger (AVIV Group)',
         show: true,
         description: [
-          '> Migrated the application on Next.JS using Monorepo architecture',
-          '> Improved WebVitals Metrics',
-          '> Handled GDPR consent using Didomi'
+          '> Migrated local sites (Seloger, Immowelt, Logic-Immo) to a White Label solution',
+          '> Migrated the Frontend to runtime-composition architecture using Webpack Module Federation',
+          '> Mentoring team members & Code reviews'
         ]
       }
     ]
@@ -70,13 +73,13 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Master’s degree in Communication',
+        title: 'Master’s degree in Humanities',
         place: 'Sorbonne University - 2008',
         show: true
       },
       {
         order: 2,
-        title: 'Full stack Javascript Training',
+        title: 'JS Fullstack Developer Training',
         place: 'IFOCOP - 2018',
         show: true,
         description: [

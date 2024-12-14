@@ -3,12 +3,12 @@ const puppeteer = require('puppeteer-core')
 // If not, install it or use puppeteer instead of puppeeter-core
 
 const executablePath = '/snap/bin/chromium'
-const urlLocal = 'http://localhost:3000/#/pierre-vautherin-cv-2022/'
+const urlLocal = 'http://localhost:3000/#/pierre-vautherin-cv-2025/'
 const exportName = 'PVautherin'
 const language = 'EN'
 
 // prettier-ignore
-const year = "2022";
+const year = "2025";
 // prettier-ignore
 
 (async () => {

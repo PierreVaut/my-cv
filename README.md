@@ -8,11 +8,27 @@ I was too lazy to do my resume on word, so I did this React webpage instead!
 
 Save a tree, don't print it 🌲
 
-http://randomwebsite.xyz.s3-website-us-east-1.amazonaws.com/#/pierre-vautherin-cv-2022
+http://randomwebsite.xyz.s3-website-us-east-1.amazonaws.com/#/pierre-vautherin-cv-2025
 
 ## PDF generation
 
 PDF generation is done by an AWS Lambda 👩‍🏭
 
 [PDF Generator Lambda](https://github.com/PierreVaut/pdf-generator-lambda).
+
+## Tech stack (2025 update)
+
+This project was started in 2020, before Typescript became the industry standard.
+If I had plenty of time, I would definitely migrate it on Typescript !
+Typing the 'resources' file would offer better consistency.
+
+It uses React 18. Removing CRA and migrating on React 19 wouldn't hurt as well !
+
+The state is managed using React Context, which IMHO is perfectly enough to manage the static data.
+This choice was documented in the ADR 003 "single source of truth".
+
+UI relies on CSS, which is still OK in 2025 for a static web page.
+We will need to check if it scales well
+
+
 
