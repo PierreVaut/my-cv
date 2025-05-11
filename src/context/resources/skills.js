@@ -12,6 +12,11 @@ export default {
         order: 1,
         title: 'HTML CSS',
         show: true
+      },
+      {
+        order: 2,
+        title: 'Python',
+        show: true
       }
     ]
   },
@@ -31,14 +36,20 @@ export default {
       },
       {
         order: 2,
-        title: 'Webpack / module federation',
+        title: 'Webpack',
         show: true
       },
       {
         order: 3,
+        title: 'Module federation',
+        show: true
+      },
+      {
+        order: 4,
         title: 'Jest / Cypress',
         show: true
-      }
+      },
+
     ]
   },
   backend: {
@@ -47,17 +58,12 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Node',
+        title: 'Node JS',
         show: true
       },
       {
         order: 1,
         title: 'GraphQL',
-        show: true
-      },
-      {
-        order: 2,
-        title: 'NestJS',
         show: true
       }
     ]
@@ -68,12 +74,17 @@ export default {
     items: [
       {
         order: 0,
-        title: 'AWS Lambda, ECS',
+        title: 'AWS',
         show: true
       },
       {
         order: 1,
-        title: 'CircleCI pipeline',
+        title: 'CircleCI',
+        show: true
+      },
+      {
+        order: 3,
+        title: 'Terraform',
         show: true
       }
     ]
@@ -84,7 +95,7 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Git / GitHb',
+        title: 'Git / GitHub',
         show: true
       }
     ]
@@ -101,6 +112,11 @@ export default {
       {
         order: 1,
         title: 'JIRA, Confluence',
+        show: true
+      },
+      {
+        order: 1,
+        title: 'Figma',
         show: true
       }
     ]

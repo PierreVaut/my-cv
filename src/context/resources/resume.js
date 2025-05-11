@@ -23,21 +23,24 @@ export default {
       {
         order: 2,
         timePeriod: 'Feb - July 2018',
-        title: 'Fullstack developer (Intern)',
+        title: 'Fullstack developer',
         place: 'Groupeer Technologies',
         show: true,
         description: [
           '> React Typescript App internationalization',
-          '> Fleet management service for IoT devices creation'
+          '> Fleet management service for IoT devices'
         ]
       },
       {
         order: 3,
         timePeriod: 'July - Oct 2018',
-        title: 'Backend developer',
+        title: 'Python Backend developer',
         place: 'SFR',
-        show: false,
-        description: ['> Created and maintained webservices for Cloud clients']
+        show: true,
+        description: [
+          '> Create a webservice for Cloud clients',
+          '> Improve Test Coverage'
+        ]
       },
       {
         order: 4,
@@ -47,21 +50,22 @@ export default {
         show: true,
         description: [
           'AI-in-Editor Team',
-          '> Contribution to AI features for Photo books creation',
-          '> Frontend image optimization to improve speed and interactivity',
-          '> Dynamic linking between Apps and Web experience'
+          '> Develop AI features for Photo books creation',
+          '> Improve Image Loading Time',
+          '> Enhance Dynamic linking between Apps and Web'
         ]
       },
       {
         order: 5,
         timePeriod: 'Oct 2020 - present',
         title: 'Lead Software Engineer',
-        place: 'SeLoger (AVIV Group)',
+        place: 'AVIV Group (SeLoger)',
         show: true,
         description: [
-          '> Migrated local sites (Seloger, Immowelt, Logic-Immo) to a White Label solution',
-          '> Migrated the Frontend to runtime-composition architecture using Webpack Module Federation',
-          '> Mentoring team members & Code reviews'
+          '> Deliver a multi-brand White Label solution',
+          '> Migrate the Frontend to a runtime-composition architecture',
+          '> Improve Web Core Vitals and Accessibility',
+          '> Mentoring & Code reviews'
         ]
       }
     ]
@@ -111,7 +115,7 @@ export default {
       },
       {
         order: 2,
-        title: 'I really love cinema, especially Kubrick, Visconti and Tarkovsky.',
+        title: 'I really love cinema, especially Kubrick, Casavetes and Tarantino.',
         show: true
       }
     ]

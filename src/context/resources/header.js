@@ -20,6 +20,5 @@ export default {
     show: true,
     alt: 'pv'
   },
-  summary: `I have seven years of experience in designing and developing scalable Web applications.
-  I have a Frontend background, but I am a regular contributor to Backend as well and to Devops solutions.`
+  summary: 'Deliver scalable, maintainable and resilient code. Collaborate between Product, Design and Tech to provide the best UX/UI to the Customer. Innovate and deliver the best Product on the market.'
 }
