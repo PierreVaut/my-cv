@@ -14,14 +14,14 @@ export default {
         timePeriod: '2008 - 2017',
         title: 'Project manager',
         place: '',
-        show: true
+        show: false
         /*         description: [
           '> Elsevier - managed books & journals in Health Sciences',
           '> Cairn.info - managed journals in Humanities'
         ] */
       },
       {
-        order: 2,
+        order: 1,
         timePeriod: 'Feb - July 2018',
         title: 'Fullstack developer',
         place: 'Groupeer Technologies',
@@ -32,40 +32,39 @@ export default {
         ]
       },
       {
-        order: 3,
+        order: 2,
         timePeriod: 'July - Oct 2018',
         title: 'Python Backend developer',
         place: 'SFR',
         show: true,
         description: [
-          '> Create a webservice for Cloud clients',
-          '> Improve Test Coverage'
+          '> Maintained a large event-driven Python Application',
+          '> Created Webservices using Django'
         ]
       },
       {
-        order: 4,
+        order: 3,
         timePeriod: 'Nov 2018 - Oct 2020',
         title: 'Software Engineer',
         place: 'Photobox',
         show: true,
         description: [
           'AI-in-Editor Team',
-          '> Develop AI features for Photo books creation',
-          '> Improve Image Loading Time',
-          '> Enhance Dynamic linking between Apps and Web'
+          '> Integrated AI features for Photo books creation',
+          '> Optimized image upload/download',
         ]
       },
       {
-        order: 5,
+        order: 4,
         timePeriod: 'Oct 2020 - present',
         title: 'Lead Software Engineer',
         place: 'AVIV Group (SeLoger)',
         show: true,
         description: [
-          '> Deliver a multi-brand White Label solution',
-          '> Migrate the Frontend to a runtime-composition architecture',
-          '> Improve Web Core Vitals and Accessibility',
-          '> Mentoring & Code reviews'
+          '> Build runtime-composition and SSR frontend framework',
+          '> Optimize loading time, bundle size, caches strategies',
+          '> Created an AI agent using RAG, pgVector DB and MCP',
+          '> Mentoring & Code reviews',
         ]
       }
     ]
@@ -76,13 +75,7 @@ export default {
     sortFunc: oldestFirst,
     items: [
       {
-        order: 0,
-        title: 'Master’s degree in Humanities',
-        place: 'Sorbonne University - 2008',
-        show: true
-      },
-      {
-        order: 2,
+        order: 1,
         title: 'JS Fullstack Developer Training',
         place: 'IFOCOP - 2018',
         show: true,
@@ -91,12 +84,6 @@ export default {
           '> fullstack project: Realtime Bitcoin trading simulator'
         ]
       },
-      {
-        order: 1,
-        title: 'Self-training Javascript and Python - 2017',
-        show: false,
-        description: ['> frontend project: Dynamic newsfeed website']
-      }
     ]
   },
   miscellaneous: {
@@ -115,7 +102,7 @@ export default {
       },
       {
         order: 2,
-        title: 'I really love cinema, especially Kubrick, Casavetes and Tarantino.',
+        title: 'I really love cinema, especially Tarantino, Casavetes and Kubrick.',
         show: true
       }
     ]

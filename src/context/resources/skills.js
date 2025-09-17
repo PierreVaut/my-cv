@@ -44,12 +44,6 @@ export default {
         title: 'Module federation',
         show: true
       },
-      {
-        order: 4,
-        title: 'Jest / Cypress',
-        show: true
-      },
-
     ]
   },
   backend: {
@@ -58,23 +52,66 @@ export default {
     items: [
       {
         order: 0,
-        title: 'Node JS',
+        title: 'Next JS',
         show: true
       },
       {
         order: 1,
         title: 'GraphQL',
         show: true
-      }
+      },
     ]
   },
-  devops: {
+  AI: {
     visible: true,
     logo: null,
     items: [
       {
         order: 0,
-        title: 'AWS',
+        title: 'Mastra Agent',
+        show: true
+      },
+      {
+        order: 1,
+        title: 'pgVector',
+        show: true
+      },
+      {
+        order: 2,
+        title: 'OpenAI Embeddings',
+        show: true
+      }
+    ]
+  },
+  infra: {
+    visible: true,
+    logo: null,
+    items: [
+      {
+        order: 0,
+        title: 'AWS Lambda',
+        show: true
+      },
+      {
+        order: 1,
+        title: 'AWS Cloudfront',
+        show: true
+      },
+      {
+        order: 2,
+        title: 'Terraform',
+        show: true
+      },
+
+    ]
+  },
+  Automation: {
+    visible: true,
+    logo: null,
+    items: [
+      {
+        order: 0,
+        title: 'GitHub Actions',
         show: true
       },
       {
@@ -83,25 +120,14 @@ export default {
         show: true
       },
       {
-        order: 3,
-        title: 'Terraform',
+        order: 2,
+        title: 'Jest, Cypress',
         show: true
-      }
-    ]
-  },
-  versionning: {
-    visible: true,
-    logo: null,
-    items: [
-      {
-        order: 0,
-        title: 'Git / GitHub',
-        show: true
-      }
+      },
     ]
   },
   project: {
-    visible: true,
+    visible: false,
     logo: null,
     items: [
       {

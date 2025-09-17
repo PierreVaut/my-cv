@@ -11,13 +11,18 @@ const PageBlock = ({ className, resource }) => {
     <div className={className} data-testid={`page-block-${resource}`}>
       {
         Object.keys(pageBlockData).map(
-          (pageBlockElementKey) => (
-            <ItemBlock
-              itemBlockType={pageBlockElementKey}
-              itemBlockData={pageBlockData[pageBlockElementKey]}
-              key={pageBlockElementKey}
-            />
-          ),
+          (pageBlockElementKey) => {
+            const blockData = pageBlockData[pageBlockElementKey]
+            if (!blockData.visible) { return null }
+
+            return (
+              <ItemBlock
+                itemBlockType={pageBlockElementKey}
+                itemBlockData={blockData}
+                key={pageBlockElementKey}
+              />
+            )
+          }
         )
       }
 
