@@ -1,0 +1,25 @@
+body {
+  background: rgb(204,204,204);
+  line-height: 1.25;
+}
+
+.A4 {
+  background: white;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  width: 21cm;
+  height: 29.7cm;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  height: 860px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

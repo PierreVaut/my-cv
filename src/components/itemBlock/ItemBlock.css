@@ -1,0 +1,34 @@
+.itemBlock {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  position: relative;
+}
+
+.item-block-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.left
+.item-block-title {
+  font-size: large;
+  color:rgb(45, 141, 170);
+}
+
+.timePeriod {
+  font-style: italic;
+  padding-left: 5px;
+}
+
+.description {
+  padding-left: 6px;
+}
+
+.item-block-image {
+  width: 19px;
+  height: 19px;
+  margin-right: 3px;
+  position: absolute;
+  left: -24px;
+}

@@ -1,0 +1,27 @@
+.left .item-title {
+  margin: 10px 5px 3px 5px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.left .position-title {
+  color: rgb(56, 56, 56);
+}
+
+.right .item-title {
+  margin: 5px 5px 3px 5px;
+}
+
+.left .miscellaneous .item-title {
+  font-weight: normal;
+  margin: 3px 5px;
+}
+
+.timePeriod {
+  margin-left: 3px;
+}
+
+.description {
+  margin-left: 20px;
+  text-indent: -12px;
+}
